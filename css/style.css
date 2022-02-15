@@ -1,0 +1,166 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 100px auto 0;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  background-color: aquamarine;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 48px;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  background-color: rgb(171, 226, 43);
+  border-top: 3px dashed #000;
+  border-left: 5px dotted #000;
+  border-bottom: 3px solid #000;
+  border-right: 15px double #000;
+}
+.text1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  background-color: rgb(171, 226, 43);
+  border: 50px solid transparent;
+  border-bottom: none;
+}
+.text2 {
+  display: inline;
+  font-size: 40px;
+  font-weight: 300;
+  border-bottom: 2px dotted green;
+  line-height: 125%;
+}
+.text3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 200%;
+  background-color: rgb(177, 107, 150);
+  padding: 20px;
+  border-radius: 10px 70px 20px 50px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.link {
+  display: inline-block;
+  font-size: 100px;
+  color: blueviolet;
+  text-shadow: 10px 10px 10px coral;
+  margin-bottom: 24px;
+  border-bottom: 3px dashed red;
+}
+
+.img {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  border-radius: 20px;
+}
+.imge {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 24px;
+}
+.text4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 200%;
+  background-color: rgb(174, 252, 29);
+  padding: 20px;
+  border-radius: 90px 20px 80px 30px;
+  border: 5px solid brown;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.text5 {
+  font-family: "Lobster", cursive;
+  max-width: 300px;
+  font-size: 10px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  background-color: rgb(223, 130, 130);
+  outline: 10px dotted yellow;
+  margin: 0 0 0 auto;
+  margin-bottom: 50px;
+}
+
+.text6 {
+  font-size: 30px;
+  font-weight: 400;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  background-color: rgb(171, 226, 43);
+  border: 10px solid black;
+}
+
+.text7 {
+  display: inline-block;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  outline: 5px dashed gray;
+  background-color: rgb(171, 226, 43);
+  width: 500px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.text8 {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  background-color: rgb(81, 190, 233);
+  width: 300px;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 5px 5px rgb(19, 93, 179);
+}
+.text9 {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  background-color: rgb(81, 190, 233);
+  width: 300px;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  box-shadow: inset 5px 5px 5px 5px rgb(158, 221, 122),
+    5px 5px 5px 5px rgb(19, 93, 179);
+  border-radius: 10px;
+}
+.text10 {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  background-color: rgb(81, 190, 233);
+  margin: 0px auto;
+  margin-bottom: 24px;
+  opacity: 0.5;
+}
